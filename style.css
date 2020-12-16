@@ -1,0 +1,165 @@
+body {
+    background-color: mintcream;
+    text-align: center;
+
+}
+
+.text {
+    line-height: 0.9em;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.4em;
+}
+
+.burger {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.bun1 {
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: -12px;
+    left: 2.5%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px 100px 10px 10px;
+
+
+}
+
+.bun2 {
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: -26px;
+    left: 2.5%;
+    border-radius: 10px 10px 100px 100px;
+    margin-bottom: 100px;
+    margin-top: 300px;
+    border-top: 10px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.sesame {
+    width: 30px;
+    height: 10px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.seed1 {
+    top: 20%;
+    left: -5%;
+}
+
+.seed2 {
+    top: 20%;
+    left: 8%;
+}
+
+.seed3 {
+    top: 20%;
+    left: 22%;
+}
+
+.seed4 {
+    top: 40%;
+    left: -20%;
+}
+
+.seed5 {
+    top: 40%;
+    left: -6%;
+}
+
+.salad {
+    height: 16px;
+    width: 410px;
+    background-color: forestgreen;
+    position: relative;
+    left: 5px;
+}
+
+.leaf1 {
+    bottom: 600px;
+    border-radius: 10px 10px 1px 1px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);   
+}
+
+.leaf2 {
+    bottom: 364px;
+    border-radius: 1px 1px 10px 10px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.patty {
+    position: relative;
+    width: 420px;
+    height: 80px;
+    bottom: 554px;
+    background-color: #75462f;
+    border-radius: 30px;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);  
+}
+
+.tomato {
+    box-sizing: border-box;
+    position: relative;
+    width: 170px;
+    height: 40px;
+    bottom: 586px;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 8px;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);  
+}
+
+.piece1 { 
+    left: -2px;
+}
+
+.piece2 {
+    left: 4px;
+}
+
+.cheese {
+    height: 22px;
+    background-color: yellow;
+    position: relative;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.slice1 {
+    bottom: 494px;
+}
+
+.slice2 {
+    bottom: 446px;
+}
+
+.slice3 {
+    bottom: 346px;
+}
